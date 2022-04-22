@@ -15,4 +15,11 @@
     <string name="cadena1">We are happy to have you get ready to buy fresh and freeze ,grocery and everything you want</string>
     <string name="profile">Profile</string>
     <string name="category">Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mycarts">my_carts</string>
+    <string name="my_carts">my_carts</string>
+    <string name="my_ordens">my_ordens</string>
+    <string name="new_products">new_products</string>
+    <string name="offers">offers</string>
 </resources>

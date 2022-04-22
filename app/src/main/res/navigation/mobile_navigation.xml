@@ -22,4 +22,24 @@
         android:name="com.example.projectuni.ui.category.CategoryFragment"
         android:label="@string/category"
         tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.projectuni.OffersFragment"
+        android:label="@string/offers"
+        tools:layout="@layout/fragment_offersk" />
+    <fragment
+        android:id="@+id/nav_new_products"
+        android:name="com.example.projectuni.NewProductsFragment"
+        android:label="@string/new_products"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/nav_my_ordens"
+        android:name="com.example.projectuni.MyOrdensFragment"
+        android:label="@string/my_ordens"
+        tools:layout="@layout/fragment_my_ordens" />
+    <fragment
+        android:id="@+id/nav_my_carts"
+        android:name="com.example.projectuni.MyCartsFragment"
+        android:label="@string/My_Carts"
+        tools:layout="@layout/fragment_my_carts" />
 </navigation>

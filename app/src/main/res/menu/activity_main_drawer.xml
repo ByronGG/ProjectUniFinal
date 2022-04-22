@@ -11,10 +11,27 @@
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="profile" />
         <item
             android:id="@+id/nav_category"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="category" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="offers" />
+        <item
+            android:id="@+id/nav_new_products"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="new products" />
+        <item
+            android:id="@+id/nav_my_ordens"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="my ordens" />
+        <item
+            android:id="@+id/nav_my_carts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="my carts" />
+
     </group>
 </menu>
