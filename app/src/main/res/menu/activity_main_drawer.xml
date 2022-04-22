@@ -10,28 +10,28 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="profile" />
+            android:icon="@drawable/menu_person"
+            android:title="Profile" />
         <item
             android:id="@+id/nav_category"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="category" />
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Category" />
         <item
             android:id="@+id/nav_offers"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="offers" />
+            android:icon="@drawable/ic_baseline_local_offer_24"
+            android:title="Offers" />
         <item
             android:id="@+id/nav_new_products"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="new products" />
+            android:icon="@drawable/autorenew"
+            android:title="New Products" />
         <item
             android:id="@+id/nav_my_ordens"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="my ordens" />
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="My Ordens" />
         <item
             android:id="@+id/nav_my_carts"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="my carts" />
+            android:icon="@drawable/mycart"
+            android:title="My Carts" />
 
     </group>
 </menu>
