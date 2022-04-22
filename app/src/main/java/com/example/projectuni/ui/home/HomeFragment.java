@@ -15,6 +15,8 @@ import com.example.projectuni.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 
+    //Popular items
+    
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_home, container, false);

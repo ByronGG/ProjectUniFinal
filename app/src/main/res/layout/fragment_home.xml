@@ -53,22 +53,19 @@
 
 
         </LinearLayout>
-
+<!--        Recycler View 1 para populares-->
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:id="@+id/pop_rec"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
-            android:weightSum="2"
-            >
-
+            android:weightSum="2">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,7 +73,6 @@
                 android:text="Explorar Productos"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,26 +83,21 @@
                 android:layout_marginRight="7dp"
                 android:textSize="16sp"
                 android:textColor="@color/purple_700"/>
-
-
+<!--        Fin del layout para la seccion de populares-->
         </LinearLayout>
-
+<!--         Recycles View para la seccion de explorar productos-->
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:id="@+id/explore_rec"/>
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
-            android:weightSum="2"
-            >
-
+            android:weightSum="2">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -114,7 +105,6 @@
                 android:text="Recomendación"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -125,16 +115,14 @@
                 android:layout_marginRight="7dp"
                 android:textSize="16sp"
                 android:textColor="@color/purple_700"/>
-
+<!--        Fin del layout de explorar productos-->
 
         </LinearLayout>
-
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:id="@+id/recommended_rec"/>
     </LinearLayout>
-
 
 </ScrollView>
