@@ -1,4 +1,4 @@
-package com.example.projectuni;
+package com.example.projectuni.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.projectuni.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity {
@@ -27,7 +28,9 @@ public class HomeActivity extends AppCompatActivity {
          */
         if(auth.getCurrentUser()!=null){
             progressBar.setVisibility(View.VISIBLE);
+            startActivity(new Intent(HomeActivity.this, MainActivity.class));
             Toast.makeText(this, "Por favor espera...", Toast.LENGTH_SHORT).show();
+            finish();
         }
     }
 
